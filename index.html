@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Love</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <p class="eyebrow">A warm welcome for the sweetest soul</p>
+        <h1>Happy Birthday, My Love</h1>
+        <p class="intro">
+          Today is all about you. I made this little space to celebrate your
+          kindness, your smile, and all the magic you bring into my world.
+        </p>
+      </header>
+
+      <main class="card">
+        <section class="welcome">
+          <h2>Before we begin</h2>
+          <p>
+            Answer a few gentle questions so I can remind you how loved you are.
+            We will take them one at a time.
+          </p>
+        </section>
+
+        <section class="questionnaire">
+          <div class="progress">
+            <span class="progress-label">Question</span>
+            <span id="progress-count">1 / 6</span>
+          </div>
+
+          <div class="question" id="question"></div>
+
+          <label class="answer-label" for="answer">Your answer</label>
+          <textarea
+            id="answer"
+            rows="3"
+            placeholder="Write your answer here..."
+          ></textarea>
+
+          <div class="actions">
+            <button class="primary" id="next-button">Next question</button>
+          </div>
+        </section>
+
+        <section class="completion" id="completion" hidden>
+          <h2>You did it! ✨</h2>
+          <p>
+            Thank you for sharing your thoughts. There is one more surprise
+            waiting for you.
+          </p>
+          <a class="primary" href="surprise.html">Go to the surprise</a>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Made with love and a thousand happy wishes.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
