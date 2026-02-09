@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Love</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">A warm welcome for the sweetest soul</p>
+          <h1>Happy Birthday, My Love</h1>
+          <p class="intro">
+            Today is all about you. I made this little space to celebrate your
+            kindness, your smile, and all the magic you bring into my world.
+          </p>
+        </div>
+        <div class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=80"
+            alt="A joyful couple sharing a warm moment"
+          />
+        </div>
+      </header>
+
+      <main class="card">
+        <section class="welcome">
+          <div>
+            <h2>Before we begin</h2>
+            <p>
+              Answer a few gentle questions so I can remind you how loved you are.
+              We will take them one at a time.
+            </p>
+          </div>
+          <div class="mini-gallery">
+            <img
+              src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80"
+              alt="A couple laughing together"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=600&q=80"
+              alt="A couple holding hands"
+            />
+          </div>
+        </section>
+
+        <section class="questionnaire">
+          <div class="progress">
+            <span class="progress-label">Question</span>
+            <span id="progress-count">1 / 6</span>
+          </div>
+
+          <div class="question" id="question"></div>
+
+          <label class="answer-label" for="answer">Your answer</label>
+          <textarea
+            id="answer"
+            rows="3"
+            placeholder="Write your answer here..."
+          ></textarea>
+
+          <div class="actions">
+            <button class="primary" id="next-button">Next question</button>
+          </div>
+        </section>
+
+        <section class="completion" id="completion" hidden>
+          <h2>You did it! ✨</h2>
+          <p>
+            Thank you for sharing your thoughts. There is one more surprise
+            waiting for you.
+          </p>
+          <a class="primary" href="surprise.html">Go to the surprise</a>
+        </section>
+      </main>
+
+      <section class="note-strip">
+        <div>
+          <h3>Little reminders</h3>
+          <p>
+            You are my favorite person, my soft place to land, and my forever
+            cheerleader. Every day with you is a gift.
+          </p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80"
+          alt="A couple smiling together"
+        />
+      </section>
+
+      <footer class="footer">
+        <p>Made with love and a thousand happy wishes.</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
